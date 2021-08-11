@@ -1,0 +1,6 @@
+export const LOGIN='LOGIN'
+export const ERROR='ERROR'
+export const LOGOUT='LOGOUT'
+export const DELETE='DELETE'
+export const FETCH='FETCH'
+export const ERRORDISPLAY='ERRORDISPLAY'
