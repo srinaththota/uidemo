@@ -8,7 +8,7 @@ border-radius: 14px;
 background-color: white;
 text-align:center;
 width:40%;
-height:11rem;
+height:12rem;
 align-items:center;
 display:flex;
 flex-direction:column;
