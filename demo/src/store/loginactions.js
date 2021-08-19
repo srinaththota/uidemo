@@ -5,7 +5,7 @@ console.log(username,password)
     return async dispatch=>{
 
         try{
-         const responseData=await axios.post(process.env.REACT_APP_LOGIN + "ogin",{
+         const responseData=await axios.post(process.env.REACT_APP_LOGIN + "login",{
                 
                     username:username,
                     password:password
