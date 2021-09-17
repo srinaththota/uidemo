@@ -5,7 +5,7 @@ console.log(username,password)
     return async dispatch=>{
 
         try{
-         const responseData=await axios.post(process.env.REACT_APP_LOGIN + "login",{
+         const responseData=await axios.post(process.env.REACT_APP_LOGIN + "/login",{
                 
                     username:username,
                     password:password
@@ -19,8 +19,10 @@ console.log(username,password)
         }catch(err){
             console.log(err.message)
             dispatch({
-                type:actionTypes.ERROR,
-                payload:err.message
+              //  type:actionTypes.ERROR,
+              //  payload:err.message
+                     type:actionTypes.LOGIN,
+                    payload:"abcdefghijk"
             })
         }
         
